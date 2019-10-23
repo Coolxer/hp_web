@@ -1,0 +1,28 @@
+#right-side {
+    width: 75%;
+    float:right;
+
+    background-color: red;
+}
+
+#info {
+    width: 20%;
+    background-color: green;
+}
+
+.stepper {
+    
+    outline : 5px solid #0099ff
+}
+
+.name {
+    
+}
+
+.state {
+
+}
+
+.pos {
+
+}

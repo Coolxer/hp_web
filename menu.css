@@ -1,0 +1,113 @@
+#menu
+{
+    width:25%;
+
+    background-color: #1a1a1a;
+}
+
+.menu_element
+{
+    padding: 8% 8%;
+
+    background-color: #1a1a1a;
+
+    text-align: center;
+    font-size: 35px;
+
+    border-top: 6px solid #262626;
+
+    font-family: 'Oswald', sans-serif;
+
+    /*transition: all 0.1s linear;*/
+}
+
+.menu_element:hover
+{
+    background-color: #0099ff;
+    cursor: pointer;
+
+    /*transform: translateX(50px);*/
+}
+
+#start
+{
+    color: #009933;
+}
+
+#control
+{
+    color: #0099ff;
+}
+
+#data
+{
+    color: #aa00ff;
+}
+
+#settings
+{
+    color: #ff9900;
+}
+
+#about
+{
+    color: #737373;
+}
+
+#contact
+{
+    color: #996633;
+}
+
+#exit
+{
+    color: #cc2900;
+}
+
+#start:hover
+{
+    background-color: #009933;
+    color: #1a1a1a;
+}
+
+#control:hover
+{
+    background-color: #0099ff;
+    color: #1a1a1a;
+}
+
+#data:hover
+{
+    background-color: #aa00ff;
+    color: #1a1a1a;
+}
+
+#settings:hover
+{
+    background-color: #ff9900;
+    color: #1a1a1a;
+}
+
+#about:hover
+{
+    background-color: #737373;
+    color: #1a1a1a;
+}
+
+#contact:hover
+{
+    background-color: #996633;
+    color: #1a1a1a;
+}
+
+#exit:hover
+{
+    background-color: #cc2900;
+    color: #1a1a1a;
+}
+
+.icon
+{
+    display: inline-flex;
+    margin-left: 5%;
+}
