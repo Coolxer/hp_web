@@ -1,23 +1,23 @@
 #menu
 {
     width:25%;
+    float:left;
 
     background-color: #1a1a1a;
 }
 
 .menu_element
 {
-    padding: 8% 8%;
+    /*padding: 8% 8%;*/
 
     background-color: #1a1a1a;
 
-    text-align: center;
-    font-size: 35px;
+    text-align: left;
+    font-size: 36px;
 
-    border-top: 6px solid #262626;
+    /*border-top: 6px solid #262626;*/
 
     font-family: 'Oswald', sans-serif;
-
     /*transition: all 0.1s linear;*/
 }
 
@@ -27,6 +27,25 @@
     cursor: pointer;
 
     /*transform: translateX(50px);*/
+}
+
+.icon
+{
+    width: 20%;
+    float: left;
+
+    /*background-color: green;*/
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menus {
+    width: 80%;
+    float: right;
+    margin: 0;
+    padding: 0;
+    /*background-color: red;*/
 }
 
 #start
@@ -104,10 +123,4 @@
 {
     background-color: #cc2900;
     color: #1a1a1a;
-}
-
-.icon
-{
-    display: inline-flex;
-    margin-left: 5%;
 }

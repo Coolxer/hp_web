@@ -5,6 +5,7 @@
     <title>HOP-30</title>
 
     <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Acme|Amatic+SC&display=swap" rel="stylesheet">
 
     <link href="fontawesome/css/fontawesome.css" rel="stylesheet">
     <link href="fontawesome/css/brands.css" rel="stylesheet">
@@ -12,28 +13,90 @@
 
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="menu.css">
+    <link rel="stylesheet" type="text/css" href="center-side.css">
     <link rel="stylesheet" type="text/css" href="right-side.css">
   </head>
   <body>
     <div id="container">
-        <div id="menu">
-            <div class="menu_element" id="start">START<div class="icon"><i class="fas fa-play"></i></div></div>
-            <div class="menu_element" id="control">CONTROL<div class="icon"><i class="fas fa-gamepad"></i></div></div>
-            <div class="menu_element" id="data">DATA<div class="icon"><i class="fas fa-database"></i></div></div>
-            <div class="menu_element" id="settings">SETTINGS<div class="icon"><i class="fas fa-cogs"></i></div></div>
-            <div class="menu_element" id="about">ABOUT<div class="icon"><i class="fas fa-info-circle"></i></div></div>
-            <div class="menu_element" id="contact">CONTACT<div class="icon"><i class="fas fa-phone"></i></div></div>
-            <div class="menu_element" id="exit">EXIT<div class="icon"><i class="fas fa-sign-out-alt"></i></div></div>
-        </div><!--
-        <div id="right-side">
-            <div id="info">
-                <div class="stepper">
-                    <div class="name">DIVIDER</div>
-                    <div class="state">STATE: ON</div>
-                    <div class="pos">POS: 25,42mm</div>
-                </div>
-            </div>
-        </div>-->
+      <div id="menu">
+        <div class="menu_element" id="start">
+          <div class="icon">
+            <i class="fas fa-play"></i>
+          </div>
+          <div class="menus">START</div>
+        </div>
+
+        <div class="menu_element" id="control">
+          <div class="icon">
+            <i class="fas fa-gamepad"></i>
+          </div>
+          <div class="menus">CONTROL</div>
+        </div>
+
+        <div class="menu_element" id="data">
+          <div class="icon">
+            <i class="fas fa-database"></i>
+          </div>
+          <div class="menus">DATA</div>
+        </div>
+
+        <div class="menu_element" id="settings">
+          <div class="icon">
+            <i class="fas fa-cogs"></i>
+          </div>
+          <div class="menus">SETTINGS</div>
+        </div>
+
+        <div class="menu_element" id="about">
+          <div class="icon">
+            <i class="fas fa-info-circle"></i>
+          </div>
+          <div class="menus">ABOUT</div>
+        </div>
+
+        <div class="menu_element" id="contact">
+          <div class="icon">
+            <i class="fas fa-phone"></i>
+          </div>
+          <div class="menus">CONTACT</div>
+        </div>
+
+        <div class="menu_element" id="exit">
+          <div class="icon">
+            <i class="fas fa-sign-out-alt"></i>
+          </div>
+          <div class="menus">EXIT</div>
+        </div>
+
+      </div>
+      <div id="center-side">
+            
+      </div>
+      <div id="right-side">
+        <div id="info" style="margin-top: 10%;">
+          <div class="stepper">
+            <div class="name">DIVIDER MOTOR</div>
+            <div class="state"><div class="element"><i class="fas fa-power-off"></i></div>STATE: <span style="color: #00cc00;">ON</span></div>
+            <hr>
+            <div class="pos"><div class="element"><i class="fas fa-crosshairs"></i></div>POS: <span style="color: #0099ff;">34,5 deg.</span></div>
+            <hr>
+            <div class="speed"><div class="element"><i class="fas fa-tachometer-alt"></i></div>SPEED: <span style="color: #ff9900;">120</span></div>
+            <hr>
+          </div>
+        </div>
+
+        <div id="info" style="margin-top: 71%">
+          <div class="stepper">
+            <div class="name">TABLE MOTOR</div>
+            <div class="state"><div class="element"><i class="fas fa-power-off"></i></div>STATE: <span style="color: #cc2900;">OFF</span></div>
+            <hr>
+            <div class="pos"><div class="element"><i class="fas fa-crosshairs"></i></div>POS: <span style="color: #0099ff;">25,42mm</span></div>
+            <hr>
+            <div class="speed"><div class="element"><i class="fas fa-tachometer-alt"></i></div>SPEED: <span style="color: #0099ff;">60</span></div>
+            <hr>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
