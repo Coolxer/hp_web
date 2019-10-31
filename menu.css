@@ -1,14 +1,14 @@
 #menu
 {
-    width:25%;
-    float:left;
+    width:20%;
 
     background-color: #1a1a1a;
 }
 
 .menu_element
 {
-    /*padding: 8% 8%;*/
+    padding: 11% 11%;
+    display: flex;
 
     background-color: #1a1a1a;
 
@@ -31,18 +31,16 @@
 
 .icon
 {
-    width: 20%;
-    float: left;
+    width: 30%;
 
     /*background-color: green;*/
-    text-align: center;
+    text-align: left;
     margin: 0;
     padding: 0;
 }
 
 .menus {
-    width: 80%;
-    float: right;
+    width: 70%;
     margin: 0;
     padding: 0;
     /*background-color: red;*/

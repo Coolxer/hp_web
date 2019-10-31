@@ -11,6 +11,7 @@ html, body, #container
 #container
 {
     width:80%;
+    display: flex;
     margin-top: 3%;
 
     margin-left: auto;
@@ -24,5 +25,6 @@ html, body, #container
     border-right: 5px solid #1a1a1a;
     border-bottom: 5px solid #1a1a1a;*/
 }
+
 
 
